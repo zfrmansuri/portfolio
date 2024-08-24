@@ -114,7 +114,7 @@
 .project-details-container{
   border-radius: 1rem;
   padding: 0px;
-  height: 380px;
+  height: 400px;
   text-align: left;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-color: rgb(209, 209, 209);
@@ -191,6 +191,7 @@
 .project-overall-details p{
   font-size: 0.85rem;
   color: rgb(2, 2, 2);
+  text-align: justify;
 }
 
 .project-overall-details p b{
