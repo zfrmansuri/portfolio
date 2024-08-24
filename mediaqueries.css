@@ -188,9 +188,9 @@
   opacity: 0.3;
 }
 
-.project-overall-details p{
+.project-description{
   font-size: 0.85rem;
-  color: rgb(2, 2, 2);
+  color: rgb(0, 0, 0);
   text-align: justify;
 }
 
