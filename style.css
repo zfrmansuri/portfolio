@@ -357,7 +357,7 @@ article .icon {
 
 #projects {
   position:relative;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .color-container {
@@ -384,24 +384,24 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  padding-top: 5rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   height: 70vh;
 }
 
-.contact-info-upper-container {
+.contact-main-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  /* border: rgb(53, 53, 53) 0.1rem solid; */
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
-  margin: 2rem auto;
   padding: 0.5rem;
 }
 
-.contact-info-container {
+.contact-option-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -409,16 +409,60 @@ article .icon {
   margin: 1rem;
 }
 
-.contact-info-container p {
-  font-size: larger;
+.contact-option{
+  display: flex;
+  flex-direction: column;
+  row-gap:.4em;
+  justify-content: center;
+  align-items: center;
+  font-family: "inter", sans-serif;
+  width: 40vw;
+  padding: 1rem;
+  margin: 1.5em;
+  /* border: rgb(163, 163, 163) 0.1rem solid; */
+  /* background-color: rgb(250, 250, 250); */
+  border-radius: 1em;
+  box-shadow: -2px 4px 8px rgba(134, 151, 168, 0.1),2px -1px 8px rgba(134, 151, 168, 0.1)
 }
 
-.contact-icon {
-  cursor: default;
+.contact-option-icon{
+  width: 30px!important;
+  padding-bottom: .5rem;
 }
 
-.email-icon {
-  height: 2.5rem;
+.social-insta-linkedin{
+  display: flex;
+  align-items: center;
+  width: 6rem;
+  justify-content: space-between;
+}
+
+.contact-social-heading{
+  font-size: 18px;
+  padding-bottom: 0.5rem;
+}
+
+.contact-social-img{
+  /* padding-right: 1em; */
+  width: 30px;
+}
+
+.contact-btn{
+  border: none;
+  font-family: "inter", sans-serif;
+  font-size: 0.9rem;
+  width:4.3rem;
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  box-shadow:rgba(0, 0, 0, 0.256) 1px 3px 7px;
+}
+
+.contact-option h5{
+  font-weight: 600;
+  color: #5b656e;
 }
 
 /* FOOTER SECTION */

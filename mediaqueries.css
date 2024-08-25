@@ -50,7 +50,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
   footer {
     height: 40vh;
   }
@@ -70,15 +69,8 @@
   .btn-container {
     flex-wrap: wrap;
   }
-  .contact-info-container {
-    margin: 0;
-  }
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 1rem;
-  }
-  .experience-sub-title {
-    font-size: 1.25rem;
+  .contact-option{
+    width: 70vw;
   }
   .logo {
     font-size: 1.5rem;
@@ -192,6 +184,8 @@
   font-size: 0.85rem;
   color: rgb(0, 0, 0);
   text-align: justify;
+  font-family: "inter", sans-serif;
+  line-height: 1.3;
 }
 
 .project-overall-details p b{

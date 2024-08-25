@@ -38,4 +38,4 @@ function startShaking() {
 }
 
 // Shake the button every 3 seconds
-setInterval(startShaking, 3000);
+setInterval(startShaking, 4000);
