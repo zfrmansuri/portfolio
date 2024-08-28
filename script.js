@@ -34,7 +34,7 @@ function startShaking() {
         button1.classList.remove('auto-shake');
         button2.classList.remove('auto-shake');
         button3.classList.remove('auto-shake');
-    }, 500); // Duration matches the CSS animation duration
+    }, 700); // Duration matches the CSS animation duration
 }
 
 // Shake the button every 3 seconds

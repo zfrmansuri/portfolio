@@ -1,3 +1,40 @@
+/* Operational Values  */
+.operational-values{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1.24rem;
+    gap: 1em;
+}
+
+.operation-value{
+    width: 26%;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    border-radius: 1em;
+    box-shadow: -2px 4px 8px rgba(102, 115, 129, 0.1),2px -1px 8px rgba(102, 115, 129, 0.1);
+}
+
+.operation-value  img{
+    width: 25px;
+    padding-bottom: 0.3em;
+}
+
+.operation-value h4{
+    font-size: 1.1rem;
+    color: #5c427b;
+}
+
+.operation-value p{
+    font-size: 12px;
+    padding-top: 0.4em;
+}
+
+
 /* Testimonials */
 .container{
     max-width: 1170px;
