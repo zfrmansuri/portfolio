@@ -95,6 +95,9 @@
     line-height: 1.4;
     color: hsl(0, 5.2%, 19%);
     font-family: "Open Sans", sans-serif;
+    align-content: center;
+    height: 18vh;
+    hyphens: auto;
     /* letter-spacing: 1px; */
 }
 
@@ -121,15 +124,16 @@
     text-transform: capitalize;
     margin-top: 0.5em;
     font-weight: bold;
-    /* color: hsl(0, 0%, 0%); */
-    color: #359756;
+    color: #402b57;
+    /* color: #359756; */
     font-family: "Montserrat", sans-serif;
 }
 .testimonials-item .job{
     text-transform: capitalize;
     color: hsl(0, 0%, 40%);
     font-family: "Montserrat", sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 15px;
     margin-top: 0.1em;
 }
 
