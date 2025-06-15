@@ -5,6 +5,7 @@
 /* Operational Values  */
 .operational-values{
     display: flex;
+    display: none;
     justify-content: center;
     width: 100%;
     margin-bottom: 1.24rem;
@@ -71,6 +72,7 @@
     border: 2px solid lightgray;
     padding: 30px;
     border-radius: 15px;
+    height: 60vh;
 }
 .testimonials-item .info{
     display: flex;
@@ -148,6 +150,11 @@
     background-color: hsl(0, 0%, 0%);
 }
 
+.shakil-video-container{
+    height: 44vh;
+    border-radius: 1rem;
+}
+
 
 /* Experience */
 .skillsContainer {
@@ -211,6 +218,10 @@
 
     .skillsSection{
         margin: 0px!important;
+    }
+
+    .btn-container {
+        margin-top: 1.2rem;
     }
 }
 

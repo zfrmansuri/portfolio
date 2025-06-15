@@ -81,20 +81,38 @@
     gap: 0.5rem;
     text-align: center;
   }
-  .section__pic-container {
+  /* .section__pic-container {
     width: 46vw;
     height: 46vw;
     justify-content: center;
+  } */
+
+      .section__pic-container {
+        /* width: 46vw; */
+        height: 37vh;
+        justify-content: center;
+        align-items: baseline;
+        overflow: hidden;
+    }
+
+  .profile-pic-main-image{
+    height: 60vh;
   }
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
   .title {
     font-size: 2rem;
+    /* line-height: 3rem; */
+    line-height: 2.5rem;
   }
   .text-container {
     text-align: justify;
     hyphens: auto;
+  }
+  .btn{
+    width: 20rem;
   }
 }
 
