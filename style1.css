@@ -153,6 +153,11 @@
 .shakil-video-container{
     height: 44vh;
     border-radius: 1rem;
+    object-fit: cover;
+}
+
+.video-testimonial{
+    height: 44vh;
 }
 
 
